@@ -10,7 +10,7 @@ for (let i = 0; i < limit; i++) {
     if (Y == 0) {
         console.log("divisao impossivel");
     } else {
-        let divisao = parseFloat(X / Y).toFixed(1); //complete com o sinal da operação faltante entre x e y
+        let divisao = parseFloat(X / Y).toFixed(1);
         console.log(divisao);
     }
 }
